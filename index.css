@@ -66,7 +66,10 @@ label, #verde{
   color: green;
 }
 
-
+.col-center{
+    float: none;
+    margin: 0 auto;
+}
 
 
 /* Seccion 3 */
@@ -99,7 +102,7 @@ div#uno {
   height: 300px;
   background-size: cover;
   background-image: url("https://img.freepik.com/vector-gratis/lindo-personaje-dibujos-animados-chico-takwando_78094-578.jpg?size=338&ext=jpg");
-  margin: 90px ;
+  margin: 10px ;
   margin-top: 100px;
   opacity: 1.5;
 }
