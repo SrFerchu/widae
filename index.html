@@ -25,6 +25,8 @@
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
   	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Contenido Principal -->
   </head>
   <body>
   <div id="googlefonts2">
@@ -64,9 +66,13 @@
 				        <a class="nav-link" data-scroll href="#seccion3" id="info">Información</a>
 				      </li>
 
-				       <li class="nav-item">
-				        <a class="nav-link" href="taekwondo.html" id="taek">Taekwondo</a>
-				      </li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn"><p id="gris">Taekwondo</p></a>
+                <div class="dropdown-content">
+                  <a href="taekwondo.html"><p id="gris">Historia</p></a>
+                  <a href="#"><p id="gris">Videos</p></a>
+                </div>
+              </li>
 
 				       <li class="nav-item">
 				        <a class="nav-link" href="contacto.html" id="contacto">Contacto</a>
@@ -145,15 +151,12 @@
  <section id="seccion3" class="container-fluid">
 
    <div class="row">
-     <div class="col-md-6">
+     <div class="col">
        <br>
-       <p>Me faltan ideas</p>
+       <h3 id="pregunta">¿Quieres ver el material que utilizamos y donde lo compramos?</h3>
+       <br>
+         <a href="https://www.daedo.com/es/taekwondo/" target="_blank"><button id="col-boton" type="submit" name="button"><h5>Ver</h5></button></a>
      </div>
-
-     <div class="col-md-6">
-
-     </div>
-
    </div>
 
  </section>
@@ -165,12 +168,12 @@
  <!-- Seccion 4 -->
 
 <section id="seccion4" class="container-fluid">
-  <h1 id="horarios">Horario Clases</h1>
+  <h1 id="horarios"><u>Horario Clases</u></h1>
   <br><br>
   <div class="row offset-1">
     <!-- Columna 1 -->
     <div class="col-md-4 col-center">
-      <h4 >Mayores</h4>
+      <h4 class="subtitulo">Mayores</h4>
       <div id="uno-uno">
        <div id="tres-tres">
          <p id="dos-dos">Martes</p>
@@ -183,7 +186,7 @@
     </div>
     <!-- Columna 2 -->
     <div class="col-md-4 col-center">
-      <h4>Pequeños</h4>
+      <h4 class="subtitulo">Pequeños</h4>
       <div id="uno">
        <div id="tres">
          <br>

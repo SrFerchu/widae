@@ -7,6 +7,47 @@ li{
   padding: 0;
   margin-left: 180px;
 }
+
+li .dropbtn {
+  display: inline-block;
+  color: #6c757d;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: relative;
+  padding: 0;
+  margin-top: 8px;
+  margin: 8px;
+}
+
+#gris{
+  color: #6c757d;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #343a40;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  color: #6c757d;
+}
+
+.dropdown-content a {
+  color: #cccdcf;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 #googlefonts2{
   font-family: 'Lora', serif;
 }
@@ -14,7 +55,7 @@ li{
 #imagen-1{
   width: 100%;
   margin-top: 60px;
-  height: 100%;
+  height: auto;
 }
 
 #imagen-insta{
@@ -77,10 +118,26 @@ label, #verde{
 #seccion3{
   background-color: black;
   width: 100%;
-  height: 300px;;
-  color: white;
+  height: 270px;
   text-align: center;
 }
+
+
+
+#pregunta{
+  color: white;
+  margin-top: 50px;
+}
+
+#col-boton{
+  color: white;
+  background-color: green;
+  width: 200px;
+  height: 40px;
+  border-style: none;
+  border-radius: 25px;
+}
+
 
 
 /* Seccion 4 */
@@ -199,6 +256,11 @@ div#uno-uno:hover p#cuatro-cuatro {
   margin-top: 75px;
 }
 
+
+.subtitulo{
+  position: absolute;
+  padding-left: 120px;
+}
 
 /* Footer */
 
