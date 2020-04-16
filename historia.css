@@ -1,0 +1,107 @@
+/* Cabecera */
+
+li{
+  display: inline-block;
+  position: relative;
+  margin: 0 3px 0 0;
+  padding: 0;
+  margin-left: 170px;
+  top: 8px;
+}
+
+
+li .dropbtn {
+  display: inline-block;
+  color: rgba(255,255,255,.5);
+  padding: 14px 16px;
+  text-decoration: none;
+  position: relative;
+  padding: 0;
+  margin: 8px;
+  right: 8px;
+}
+
+
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #343a40;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  color: rgba(255,255,255,.5);
+}
+
+.dropdown-content a {
+  color: rgba(255,255,255,.5);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#googlefonts{
+  font-family: 'Lora', serif;
+}
+
+#imagen-insta{
+  margin-top: 5px;
+}
+
+#logo{
+  width: 40px;
+  margin-top: -10px;
+}
+
+
+
+
+#taeks{
+  text-align: center;
+  margin-top: 80px;
+}
+
+#movertext{
+  margin-top: 100px;
+  text-align: inherit;
+}
+
+#moverimg{
+  margin-top: 40px;
+  width: 100%;
+}
+
+footer{
+  height: auto;
+  background-color: #000;
+  margin-top: 80px;
+}
+
+#col-footer{
+  margin-top: 60px;
+  color: white;
+  margin-right: auto;
+}
+
+#col2-footer{
+  margin-top: 40px;
+  color: white;
+  margin-left: auto;
+}
+
+#wid{
+  padding-left: 50px;
+}
+
+#desplazar{
+  margin-top: 60px;
+  color: white;
+}

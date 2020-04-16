@@ -3,9 +3,49 @@
 li{
   display: inline-block;
   position: relative;
-  margin: 0 0 0 0;
+  margin: 0 3px 0 0;
   padding: 0;
-  margin-left: 160px;
+  margin-left: 170px;
+  top: 8px;
+}
+
+
+li .dropbtn {
+  display: inline-block;
+  color: rgba(255,255,255,.5);
+  padding: 14px 16px;
+  text-decoration: none;
+  position: relative;
+  padding: 0;
+  margin: 8px;
+  right: 8px;
+}
+
+
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #343a40;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  color: rgba(255,255,255,.5);
+}
+
+.dropdown-content a {
+  color: rgba(255,255,255,.5);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 #googlefonts3{
